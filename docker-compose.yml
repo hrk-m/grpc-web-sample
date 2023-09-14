@@ -1,4 +1,11 @@
 services:
+  proxy:
+    build: ./proxy
+    ports:
+      - "8080:8080"
+    links:
+      - "server"
+
   server:
     build: ./server
     ports:
