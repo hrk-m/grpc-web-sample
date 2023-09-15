@@ -1,4 +1,14 @@
-# grpc-web-sample
+# hello-grpc-web
+
+gRPCを使ったWebアプリケーション開発
+
+- 技術選定
+  - バックエンド
+    - go1.21.0
+  - フロント
+    - node: v16.14.0
+    - React.js
+  - gRPCとの通信を可能にするためにenvoy を使用
 
 # 事前導入
 ```zsh
@@ -10,7 +20,7 @@ $ brew install protoc-gen-grpc-web
 
 ```bash
 ## init
-$ go mod init github.com/hrk-m/grpc-web-sample/server
+$ go mod init github.com/hrk-m/hello-grpc-web/server
 
 ## Protocol Buffers v3 をinstall
 $ go get -u google.golang.org/grpc

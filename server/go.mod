@@ -1,4 +1,4 @@
-module github.com/hrk-m/grpc-web-sample/server
+module github.com/hrk-m/hello-grpc-web/server
 
 go 1.21.0
 
